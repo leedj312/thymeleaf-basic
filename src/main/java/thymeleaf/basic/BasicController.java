@@ -135,7 +135,7 @@ public class BasicController {
 
     @GetMapping("/commnets")
     public String commnets(Model model){
-        model.addAttribute("data", "HelloSpring!");
+        model.addAttribute("data", "HelloSpring!222");
         return "basic/commnets";
     }
 
